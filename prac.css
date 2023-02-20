@@ -1,0 +1,168 @@
+body{
+    background-color: rgba(128, 128, 128, 0.689);
+    width: 100%;
+    background: size 100%;
+}
+#bii,#bii2,#bii3,#bii4,#bii1,#bii5{
+    background-color: rgb(255, 0, 0);
+    text-align: center;
+    width: 150px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    font-weight: 700;
+    border-radius: 400px;
+    padding: 6px;
+    font-family: cursive;
+    font-size: x-large;
+
+}
+
+#bii5{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+#bii2,#bii4{
+    
+    float: right;
+}
+h4,#question,#para,#bal,#last_tran,#latest,#complete,#p{
+    color: white;
+    font-size: 30px;
+    font-family: cursive;
+    text-align: center;
+    font-weight: bolder;
+}
+#bu,#origin,#header,#pin,#confirm,#last,#bal1,#transfer,#last_transfer,#display{
+    padding: 30px;
+    box-shadow: 0px 2px 6px 0px;
+    margin: auto;
+    width: 400px;
+    text-align:left;
+    margin-top: 200px;
+    
+}
+#number,#number1,#value1,#value2,#value3{
+    width: 90px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-color: red;
+    padding-left: 100px;
+    padding-right: 70px;
+    background-color: rgba(128, 128, 128, 0.015);
+    font-size: larger;
+    outline: none;
+    
+    
+}
+#value1,#value2,#value3{
+    padding-left: 40px;
+    padding-right: 10px;
+    width: 290px;
+}
+.form{
+    width: 330px;
+    margin: auto;
+
+
+}
+.form>#number{
+    margin: 13%;
+    background-color: none;
+}
+#incorrect{
+    font-style: italic;
+    color: red
+}
+form>label{
+    font-size: larger;
+    font-weight: bolder;
+}
+#number1{
+    border-color: white;
+    width: 170px;
+    padding-left: none;
+    padding-left: 30px;
+    padding-right: 70px;
+    
+} 
+#uni{
+    display: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+    
+@media only screen and (max-width:600px){
+    
+
+    #uni{
+        display: block;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        height: 40px;
+        left: 0;
+        color: red;
+        border: none;
+        box-shadow: 0px 0px 10px -2px;
+        background-color: rgba(255, 255, 255, 0.924);
+    }
+    #mobile{
+        padding-left: 12px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        margin-top: 10px;
+    }
+    #bu,#origin,#header,#pin,#confirm,#last,#bal1,#transfer,#last_transfer,#display{
+        width: 200px; 
+        margin-top: 130px;
+        background-color: rgba(128, 128, 128, 0.689);
+
+    }
+    #bii,#bii2,#bii3,#bii4{
+        width: 90px;
+        font-size: 20px;
+        font-size: large;
+    }
+    #incorrect{
+        font-style: italic;
+        color: red;
+        text-align: center;
+        
+    }
+    #number{
+       width: 50px;
+       padding-right: 45px;
+       padding-left: 45px;
+       margin: auto;
+       
+    }
+    #form{
+        margin: auto;
+        width: 180px;
+        padding-left: 10px;
+        padding-right: 0px;
+        position: relative;
+
+    }
+    #bii1{
+        position: absolute;
+        left: 55px;
+        top: 100px;
+        width: 80px;
+        font-size: 15px;
+    }
+    #bii5{
+        width: 100px; 
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+    #value1,#value2,#value3{
+        width: 180px;
+        padding-left: 6px;
+    }
+}
+

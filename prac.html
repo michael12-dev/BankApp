@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="prac.css">
+</head>
+<body>
+
+    <div id="uni">
+        <h2 id="mobile">Bank App</h2>
+    </div>
+    
+    <div id="header">
+        <h4>Please select a Bank</h4>
+        <button id="bii" class="Access"> Access Bank</button>
+        <button id="bii2" class="Diamond">Diamond Bank </button>
+    </div>
+    <div id="pin" class="psw" style="display: none;">
+        <h4 id="access">Welcome Access customer, Please input your pin</h4>
+        <h4 id="diamond" style="display:none ;">Welcome Diamond customer, Please input your pin</h4>
+
+        <form action="" id="form" class="form">
+            <input type="number" name="number" id="number" autocomplete="off">
+            <br><br>
+            <input type="submit" value="Enter" id="bii1">
+            
+            </form>
+            <button id="bii5" class="home"> <a href="http://webbank-app-f360.netlify.app">Cancel</a>  </button>
+       
+    </div>
+    <div class="origin" id="origin" style="display: none;">
+
+        <button id="bii" class="withdraw">Withdraw</button>
+        <button id="bii2" class="deposit" > Deposit</button>
+        <br><br><br>
+        <button id="bii3" class="remain">Check Balance </button>
+        <button id="bii4" class="home"> <a href="http://webbank-app-f360.netlify.app">Cancel</a> </button>
+    </div>
+    <div id="bu" class="withdrawal" style="display: none;">
+        <button id="bii" class="numb1" value="1000"> $1000</button>
+        <button id="bii2" class="numb2" value="2000">$2000</button>
+        <br><br>
+        <button id="bii3" class="numb3" value="3000">$5000</button>
+        <button id="bii4" class="numb4" value="4000"> $10000</button>
+    </div>
+    <div id="confirm" class="confirm" style="display: none;">
+        <p id="question"> Do you want to make a withdrawal of </p>
+        <button id="bii" class="proceed"> Proceed</button>
+
+        <button id="bii2" class="previous"><a href="http://webbank-app-f360.netlify.app">Cancel</a> </button>
+    </div>
+    <div id="last" class="last" style="display: none;">
+        <p id="complete"> </p>
+
+        <button id="bii2" class="home"><a href="http://webbank-app-f360.netlify.app">Cancel</a> </button>
+    </div>
+    <div id="bal1" class="bal" style="display: none;">
+        <p id="bal"> </p>
+        <button id="bii2" class="home"> <a href="http://webbank-app-f360.netlify.app">Cancel</a>  </button>
+    </div>
+
+    <div id="transfer" class="transfer" style="display: none;">
+        <p id="p">Please provide information in the fields below </p>
+        <br>
+        <form action="" class="confirm_transfer">
+            <input type="text" name="text" id="value1" placeholder="Account Name" autocomplete="off">
+            <br><br>
+            <br>
+            <input type="number" name="" id="value2" placeholder="Account Number" autocomplete="off">
+           <br><br>
+            <br>
+            <input type="number" name="text" id="value3" placeholder="Amount" autocomplete="off">
+            <br><br><br>
+            <input type="submit" id="bii5" class="">
+            
+        </form>
+        <br>
+        <button id="bii5" class="home">  <a href="http://webbank-app-f360.netlify.app">Cancel</a>  </button>   
+    </div>
+
+    <div id="last_transfer" class="" style="display: none;">
+        <p id="last_tran"> </p>
+
+        <button id="bii" class="xxx"> confirm </button>
+        <button id="bii2" class="home"> <a href="http://webbank-app-f360.netlify.app">Cancel</a>  </button>
+    </div>
+    <div id="display" class="display" style="display: none;">
+        <p id="latest">  </p>
+
+        <button id="bii2" class="home"> <a href="http://webbank-app-f360.netlify.app">Back</a>  </button>
+    </div>
+
+    <script src="prac.js"></script>
+</body>
+</html>
